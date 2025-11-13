@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font and Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="kevinweb.css">
+
+    <title>Contact Me</title>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <a href="kevinweb.html" class="logo">kevin</a> <!-- Back to Home -->
+
+        <!-- Navigation -->
+        <nav>
+            <a href="kevinweb.html">Home</a>
+            <a href="hire.html">About Me </a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="info-container">
+            <h2>Contact Me</h2>
+            <p>To contact me, please complete the form below:</p>
+
+            <form action="mailto:kevin@example.com" method="post" enctype="text/plain">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
